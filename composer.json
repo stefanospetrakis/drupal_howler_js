@@ -1,0 +1,20 @@
+{
+  "name": "drupal/howler_js",
+  "type": "drupal-module",
+  "description": "Implementing HowlerJS as a file field formatter",
+  "authors": [
+    {
+      "name": "Stefanos Petrakis",
+      "email": "stefanos.petrakis@gmail.com"
+    }
+  ],
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/howler_js",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/howler_js",
+    "source": "http://cgit.drupalcode.org/howler_js"
+  },
+  "require": { }
+}

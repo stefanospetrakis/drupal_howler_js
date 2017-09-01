@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains howler_js.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function howler_js_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the howler_js module.
+    case 'help.page.howler_js':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('howler.js') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function howler_js_theme() {
+  return [
+    'howler_js' => [
+      'render element' => 'children',
+    ],
+  ];
+}

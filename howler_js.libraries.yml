@@ -1,0 +1,23 @@
+# howler_js.libraries.yml
+
+player:
+  version: 1.x
+  js:
+    js/player.js: {}
+  css:
+    styles:
+      css/styles.css: {}
+  dependencies:
+    - howler_js/core
+    - howler_js/siriwave
+    - core/drupalSettings
+
+core:
+  version: 1.x
+  js:
+    js/howler.core.js: {}
+
+siriwave:
+  version: 1.x
+  js:
+    js/siriwave.js: {}

@@ -1,0 +1,8 @@
+name: howler.js
+type: module
+description: howler.js
+core: 8.x
+package: Custom
+
+libraries:
+  - howler_js/player  
