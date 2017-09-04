@@ -1,1 +1,1 @@
-This module aims to deliver the excellent [HowlerJS](http://howlerjs.com/) library to the planet Drupal (7+8).
+This module aims to deliver the excellent [HowlerJS](http://howlerjs.com/) library to planet Drupal (7+8).
